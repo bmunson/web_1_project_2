@@ -1,7 +1,22 @@
+@font-face {
+  font-family: 'Museo';
+  src: url('../assets/fonts/museo/museo-500-webfont.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Blanch';
+  src:  url('../assets/fonts/blanch/BLANCH_CAPS.ttf') format('ttf'),
+}
+
+body {
+  font-family: 'Museo', sans-serif;
+}
+
 nav {
   display: flex;
   justify-content: space-between;
   margin: 0 30px;
+  text-transform: uppercase;
 }
 
 nav a {
@@ -10,7 +25,7 @@ nav a {
 }
 
 body {
-  background: url('https://github.com/tyreil/web_1_project_2/blob/master/assets/textures/fabric_plaid.png?raw=true');
+  background: url('../assets/textures/fabric_plaid.png');
 }
 
 #right, #left {
@@ -92,7 +107,7 @@ main p {
 }
 
 main a {
-  background: url('https://github.com/tyreil/web_1_project_2/blob/master/assets/textures/az_subtle.png?raw=true');
+  background: url('../assets/textures/az_subtle.png');
   background-color: #a6a69d;
 	background-blend-mode: multiply;
   padding: 10px 87.5px;
@@ -108,7 +123,7 @@ footer {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  background: url('https://github.com/tyreil/web_1_project_2/blob/master/assets/textures/az_subtle.png?raw=true');
+  background: url('../assets/textures/az_subtle.png');
   background-color: #a6a69d;
 	background-blend-mode: multiply;
   height: 375px;
@@ -146,6 +161,7 @@ footer div h4 span {
 
 #fnav {
   margin: 0 auto;
+  text-transform: uppercase;
 }
 
 #fleft {
